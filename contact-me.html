@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Contact Me </title>
+  </head>
+  <body>
+    <!-- This is a sample form given to the viewers of my website,
+    if they want to contact me. I have provided my fake Address, phone
+    number, and email address. Then, I have created three text boxes in which
+    people contacting me can write their name, their email address and their
+    message. All these information will then open in the person's default
+    mail client with the entered information after they click "submit". Also
+    includes a simple "Home" button on the top of the page so that users can
+    go to the Home page whenever they wish. This was easy to do, just linked
+    the a href (link) to my index.html file.  .-->
+
+    <h2><a href="index.html">Home</a></h2>
+    <h1> Contact Details </h1>
+    <p> My Address </p>
+    <p> (800)111-2222</p>
+    <p> myemail@gmail.com </p>
+    <hr>
+
+    <form action="mailto:email@example.com" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="Your Name" value=""> <br>
+      <label>Your Email: </label>
+      <input type="email" name="Your Email" value=""> <br />
+      <label>Your Message: </label> <br />
+      <textarea name="Your Message" rows="10" cols="30"></textarea> <br />
+      <input type="submit" name="">
+    </form>
+
+
+  </body>
+</html>
